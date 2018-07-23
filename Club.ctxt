@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Club
+comment0.text=\n\ The\ Club\ class\ holds\ information\ about\ all\ climbers.\n\ \n\ It\ includes\ methods\ to\ return\ the\ climber\ who\ has\ recorded\ the\ highest\ \n\ average\ mountain\ height;\ the\ highest\ mountain\ climbed\ by\ a\ member\ of\ \n\ the\ club;\ and\ a\ list\ of\ all\ mountains\ that\ have\ been\ climbed\ that\ are\ higher\n\ than\ a\ given\ level.\n\n\ @author\ Susannce\ Christensen\n\ @version\ 26/10/2017\n
+comment1.params=
+comment1.target=Club()
+comment1.text=\n\ Create\ a\ new\ Club\ object.\n
+comment2.params=newClimber
+comment2.target=void\ addClimber(Climber)
+comment2.text=\n\ Add\ a\ climber\ to\ the\ club.\n\ \n\ @param\ \ \ newClimber\ \ \ \ \ \ The\ newer\ climber\ to\ be\ added\ to\ the\ club.\n
+comment3.params=
+comment3.target=java.util.ArrayList\ listAllClimbers()
+comment3.text=\n\ Return\ list\ of\ all\ climbers\ in\ the\ club.\n\ \n\ @return\ \ \ \ \ \ Return\ list\ of\ all\ climbers\ in\ the\ club.\ \n
+comment4.params=
+comment4.target=Climber\ highestAverage()
+comment4.text=\n\ Return\ climber\ who\ has\ climbed\ the\ highest\ average\ height.\n\ \n\ @return\ \ \ \ \ \ Return\ climber\ who\ has\ climbed\ the\ highest\ average\ height.\ \n
+comment5.params=
+comment5.target=Mountain\ highestMountain()
+comment5.text=\n\ Return\ the\ highest\ mountain\ recorded\ by\ a\ member\ of\ the\ club.\n\n\ @return\ \ The\ highest\ mountain\ recorded\ by\ a\ member\ of\ the\ club.\n
+comment6.params=heigherThan
+comment6.target=java.util.ArrayList\ searchMountains(int)
+comment6.text=\n\ List\ of\ all\ mountains\ that\ have\ been\ climbed\ by\ club\ members\ that\ are\ \n\ higher\ than\ a\ given\ level.\n\ \n\ @param\ heigherThan\ \ \ Search\ for\ mountains\ higher\ than\ this\ value.\n\ @return\ \ \ List\ of\ mountains\ higher\ than\ the\ given\ level.\n
+comment7.params=searchClimber
+comment7.target=Climber\ searchClimber(java.lang.String)
+comment7.text=\n\ This\ method\ takes\ a\ String\ as\ a\ parameter.\ It\ then\ searches\ through\ \n\ all\ the\ climbers\ of\ the\ club\ to\ check\ for\ a\ match.\ If\ no\ match\ is\ found\n\ it\ will\ return\ null.\n\ \n\ @param\ \ \ \ searchClimber\ \ The\ search\ String.\n\ @return\ \ \ \ The\ climber\ match.\ Or\ null\ if\ no\ match.\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Mountain
+comment0.text=\n\ The\ objects\ of\ the\ Mountain\ class\ store\ and\ return\ mountain\ details,\ \n\ namely\ the\ name\ and\ height\ (in\ metres)\ of\ a\ mountain.\n\ \n\ @author\ Susanne\ Christensen\n\ @version\ 17/10/2017\n
+comment1.params=mountainName\ mountainHeight
+comment1.target=Mountain(java.lang.String,\ int)
+comment1.text=\n\ Create\ a\ new\ mountain\ object.\n\ \n\ @param\ \ \ mountainName\ \ \ \ The\ name\ of\ the\ mountain.\n\ @param\ \ \ mountainHeight\ \ The\ height\ of\ the\ mountain\ (in\ metres).\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Return\ the\ name\ of\ the\ mountain.\n\n\ @return\ \ \ \ The\ name\ of\ the\ mountain.\n
+comment3.params=nameMountain
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\n\ Set\ the\ name\ of\ the\ mountain.\n\n\ @param\ \ \ nameMountain\ \ \ \ \ The\ name\ of\ the\ mountain.\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment4.text=\n\ Return\ the\ height\ of\ the\ mountain.\n\n\ @return\ The\ height\ of\ the\ mountain\ (in\ metres).\n
+comment5.params=heightMountain
+comment5.target=void\ setHeight(int)
+comment5.text=\n\ Set\ the\ height\ of\ the\ mountain.\ The\ method\ will\ only\ be\ excecuted\ \n\ if\ the\ user\ enters\ a\ reasonable\ height\ (the\ maximum\ height\ was\ chosen\n\ based\ on\ the\ height\ of\ the\ world's\ highest\ mountain).\n\n\ @param\ \ \ \ heightMountain\ \ \ \ \ The\ height\ of\ the\ mountain\ (in\ metres).\n
+numComments=6
